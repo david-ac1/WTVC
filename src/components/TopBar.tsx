@@ -15,7 +15,7 @@ const TopBar = () => {
             style={{ borderWidth: '0.5px' }}
           />
           <h1 className="text-xl font-bold text-gray-900 hidden sm:block">
-            VibeCode
+            WasThisVibeCoded?
           </h1>
         </Link>
         
