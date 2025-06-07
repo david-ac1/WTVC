@@ -11,7 +11,8 @@ const TopBar = () => {
           <img 
             src="/ChatGPT Image Jun 6, 2025, 03_21_24 PM.png" 
             alt="VibeCode Logo" 
-            className="w-10 h-10 object-contain"
+            className="w-10 h-10 object-contain rounded-full border border-black"
+            style={{ borderWidth: '0.5px' }}
           />
           <h1 className="text-xl font-bold text-gray-900 hidden sm:block">
             VibeCode
