@@ -24,10 +24,10 @@ const Homepage = () => {
           {/* Popular communities section (Reddit-style) */}
           <div className="bg-white rounded border border-gray-300 p-4 mb-6">
             <h2 className="text-lg font-bold text-gray-900 mb-2">
-              r/WasThisVibeCodedAI
+              w/WasThisVibeCodedAI
             </h2>
             <p className="text-gray-600 text-sm mb-4">
-              The ultimate community for spotting AI-generated code. Can you tell if it was coded by human hands or our robot overlords? 🤖
+              Does your code pass the vibe check? Let's see! 🤖
             </p>
             
             {/* Mobile search bar */}
