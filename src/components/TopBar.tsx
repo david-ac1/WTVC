@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Search, Plus, User } from "lucide-react";
@@ -8,10 +7,12 @@ const TopBar = () => {
   return (
     <div className="sticky top-0 bg-white border-b border-gray-300 z-50 shadow-sm">
       <div className="max-w-5xl mx-auto px-4 py-2 flex justify-between items-center gap-4">
-        <Link to="/" className="flex items-center space-x-2 hover:opacity-80 transition-opacity">
-          <div className="w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center">
-            <span className="text-white font-bold text-sm">V</span>
-          </div>
+        <Link to="/" className="flex items-center space-x-3 hover:opacity-80 transition-opacity">
+          <img 
+            src="/ChatGPT Image Jun 6, 2025, 03_21_24 PM.png" 
+            alt="VibeCode Logo" 
+            className="w-10 h-10 object-contain"
+          />
           <h1 className="text-xl font-bold text-gray-900 hidden sm:block">
             VibeCode
           </h1>
